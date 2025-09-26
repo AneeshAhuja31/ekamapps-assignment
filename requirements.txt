@@ -1,0 +1,16 @@
+aiohttp==3.11.14
+Faker==37.8.0
+fastapi==0.117.1
+langchain==0.3.27
+langchain_community==0.3.30
+langchain_google_genai==2.1.12
+langchain_huggingface==0.3.1
+numpy==2.3.3
+pandas==2.3.2
+pydantic==2.11.9
+PyPDF2==3.0.1
+python-dotenv==1.1.1
+python_docx==1.1.2
+sentence_transformers==5.1.0
+SQLAlchemy==1.4.46
+uvicorn==0.37.0
