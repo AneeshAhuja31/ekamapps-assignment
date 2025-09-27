@@ -210,6 +210,6 @@ async def get_metrics():
         "total_chunks": await document_processor.get_total_chunks() if document_processor else 0
     }
 
-if __name__ == "__main__":
-    port = int(os.getenv("PORT", 8000)) 
-    uvicorn.run("main:app", host="0.0.0.0", port=port)
+# if __name__ == "__main__":
+#     port = int(os.getenv("PORT", 8000)) 
+#     uvicorn.run("main:app", host="0.0.0.0", port=port)
